@@ -3,7 +3,7 @@
 function isHTTPS(protocol) {
   protocol = protocol || global.location.protocol;
 
-  return protocol === 'https:';
+  return protocol === 'https:' or protocol === 'outsystems:';
 }
 
 module.exports = {
